@@ -11,6 +11,8 @@
 		CE4445542D72047700A8A7C0 /* DiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4445532D72047700A8A7C0 /* DiceView.swift */; };
 		CE4445562D72047900A8A7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4445552D72047900A8A7C0 /* Assets.xcassets */; };
 		CE4445592D72047900A8A7C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4445582D72047900A8A7C0 /* Preview Assets.xcassets */; };
+		CEC0AC312D7C24D9009231AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0AC302D7C24D2009231AF /* ContentView.swift */; };
+		CEC0AC342D7C2AEA009231AF /* Screenshot 2025-03-08 at 1.35.58 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CEC0AC332D7C2AEA009231AF /* Screenshot 2025-03-08 at 1.35.58 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		CE4445582D72047900A8A7C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE44455E2D72047900A8A7C0 /* DiceViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4445682D72047900A8A7C0 /* DiceViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC0AC302D7C24D2009231AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEC0AC332D7C2AEA009231AF /* Screenshot 2025-03-08 at 1.35.58 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2025-03-08 at 1.35.58 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 		CE4445502D72047700A8A7C0 /* DiceView */ = {
 			isa = PBXGroup;
 			children = (
+				CEC0AC322D7C2AD2009231AF /* Image */,
+				CEC0AC302D7C24D2009231AF /* ContentView.swift */,
 				CE4445512D72047700A8A7C0 /* DiceViewApp.swift */,
 				CE4445532D72047700A8A7C0 /* DiceView.swift */,
 				CE4445552D72047900A8A7C0 /* Assets.xcassets */,
@@ -100,6 +106,14 @@
 				CE4445582D72047900A8A7C0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEC0AC322D7C2AD2009231AF /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CEC0AC332D7C2AEA009231AF /* Screenshot 2025-03-08 at 1.35.58 PM.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4445592D72047900A8A7C0 /* Preview Assets.xcassets in Resources */,
+				CEC0AC342D7C2AEA009231AF /* Screenshot 2025-03-08 at 1.35.58 PM.png in Resources */,
 				CE4445562D72047900A8A7C0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,6 +249,7 @@
 			files = (
 				CE4445542D72047700A8A7C0 /* DiceView.swift in Sources */,
 				CE4445522D72047700A8A7C0 /* DiceViewApp.swift in Sources */,
+				CEC0AC312D7C24D9009231AF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
